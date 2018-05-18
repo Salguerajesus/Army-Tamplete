@@ -1,0 +1,183 @@
+/*font-family: 'Arbutus Slab', serif;-->*/
+/*font-family: 'Carter One', cursive;*/
+/**{
+	border: 2px solid blue;
+	padding-top: 10px;
+	margin: 10px;
+
+}*/
+body{
+font-family: 'Arbutus Slab', serif;
+margin:0;
+}
+.titulo{
+
+	font-size: 70px;
+	margin-bottom: : 15px;
+	
+}
+
+.titulo-a{
+	font-size: 20px;
+	margin-top: 0;
+
+
+}
+
+.Rifles h2 {
+	font-family: 'Carter One', cursive;
+	font-size: 35PX;
+	text-align: center;
+}
+
+.Rifles{
+	color:#adaaa6;
+
+}
+.Rifles{
+	
+
+}
+
+.Rifles ol{
+	padding: 0;
+	margin: 12px;
+}
+
+.titulo-b{
+
+	font-size: 40px;
+	margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.portada{
+	background-image: url('../Imagenes/m16_2.jpg');
+	color:white;
+	padding: 20px;
+}
+.portada button{
+	margin-bottom: 70px;
+}
+.menu{
+	font-size: 24px;
+	position: absolute;
+	right: 0;
+}
+
+.button{
+	border-radius: 5px;
+	border: none;
+	background: #ffcb05;
+	color: white; 
+	padding: 7px 12px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 18px;
+}
+.menu, .logotipo, .menu li{
+	display: inline-block;
+	margin-left: 30px;
+}
+.header{
+	position: relative;
+}
+
+.contenedor{
+	width: 800px;
+	margin: auto;
+	position: relative;
+}
+
+
+.right {
+	float: right;
+	padding-top: 40px;
+	padding-right: 110px;
+	margin-top: 0;
+
+
+}
+.left {
+	float: left;
+	padding-top: 50px;
+	padding-left: 110px;
+}
+.Container-a{
+	margin-left: 100px;
+	 margin-right: 100px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-bottom: 40px;
+   border: solid 1px;
+border-radius: 10px;
+	
+} 
+
+.Container-b{
+	margin-top: 40px;
+	 border:  solid 1px;
+    margin-left: 100px;
+    padding-bottom: 0px;
+    margin-bottom: 20;
+    margin-right:100px;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: solid 1px;
+    border-radius:10px;
+
+}
+.footer{
+	background: #1c1f1e;
+}
+.Contacto{
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.Contacto img{
+	display: block;
+}
+.Contacto strong{
+	display: block;
+}
+.Contacto a{
+	color: #ffcb05;
+	text-decoration: none;
+	margin: 10px 10px 10px 0;
+}
+.footer, .contenedor{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.Formulario{
+	display: flex;
+	width: 500px;
+}
+
+.col1, .col2{
+	display: flex;
+	flex-direction: column;
+	color:  #ffcb05;
+}
+
+.col1{
+	margin-right: 15px;
+}
+
+.col2{
+	align-items: flex-start;
+}
+.Intereses label {
+	font-size:15px;
+}
+.Formulario label, .Sexo{
+	margin: 10px;
+}
+
+.Sexo{
+	margin-top: 10px;
+}

@@ -1,0 +1,25 @@
+/*font-family: 'Arbutus Slab', serif;-->*/
+/*font-family: 'Carter One', cursive;*/
+/**{
+	border: 2px solid blue;
+	padding-top: 10px;
+	margin: 10px;
+
+}*/
+body{
+font-family: 'Arbutus Slab', serif;
+margin:0;
+}
+.titulo{
+
+	font-size: 70px;
+	margin-bottom: : 15px;
+	
+}
+
+.titulo-a{
+	font-size: 20px;
+	margin-top: 0;
+
+
+}
