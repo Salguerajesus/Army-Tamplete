@@ -10,16 +10,57 @@ body{
 font-family: 'Arbutus Slab', serif;
 margin:0;
 }
+
+table{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+
+th{
+	background: #1c1f1e;
+	color: #ffcb05;
+	padding: 10px 20px;
+}
+td{
+	color: #adaaa6;
+	text-align: left;
+
+	padding: 20px;
+}
+
+
+table, th, td{
+
+	border: 1px solid #1c1f1e;
+	border-collapse: collapse;
+}
+input, textarea{
+
+	outline: o;
+}
+
+input:focus, textarea:focus{
+	background: #adaaa6;
+}
+
 .titulo{
 
 	font-size: 70px;
 	margin-bottom: : 15px;
 	
 }
+.backgraund{
+
+	background-image: url('../Imagenes/m16_22.jpg');
+	color:white;
+}
 
 .titulo-a{
 	font-size: 20px;
 	margin-top: 0;
+	margin-bottom: 30px;
 
 
 }
@@ -52,8 +93,7 @@ margin:0;
 }
 
 .portada{
-	background-image: url('../Imagenes/m16_2.jpg');
-	color:white;
+	
 	padding: 20px;
 }
 .portada button{
@@ -63,17 +103,30 @@ margin:0;
 	font-size: 24px;
 	position: absolute;
 	right: 0;
+
 }
 
+.menu a{
+
+	color: #ffcb05;
+}
+
+.menu ul{
+
+	margin-right: 40px;
+}
 .button{
-	border-radius: 5px;
+	border-radius: 13px;
 	border: none;
 	background: #ffcb05;
 	color: white; 
 	padding: 7px 12px;
 	cursor: pointer;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 19px;
+	background: linear-gradient(to left, #f4a718, #ffcb05);
+	cursor: pointer;
+
 }
 .menu, .logotipo, .menu li{
 	display: inline-block;
@@ -102,6 +155,9 @@ margin:0;
 	float: left;
 	padding-top: 50px;
 	padding-left: 110px;
+}
+.Container-a ol{
+	margin-left: 410px;
 }
 .Container-a{
 	margin-left: 100px;
@@ -133,7 +189,7 @@ border-radius: 10px;
 }
 .Contacto{
 	display: flex;
-	width: 300px;
+	width: 400px;
 	flex-wrap: wrap;
 	align-items: center;
 }
@@ -146,7 +202,7 @@ border-radius: 10px;
 .Contacto a{
 	color: #ffcb05;
 	text-decoration: none;
-	margin: 10px 10px 10px 0;
+	margin: 10px 10px 0;
 }
 .footer, .contenedor{
 	display: flex;
@@ -155,7 +211,7 @@ border-radius: 10px;
 }
 .Formulario{
 	display: flex;
-	width: 500px;
+	width: 400px;
 }
 
 .col1, .col2{
@@ -165,19 +221,42 @@ border-radius: 10px;
 }
 
 .col1{
-	margin-right: 15px;
+	margin-right:60px;
 }
 
 .col2{
 	align-items: flex-start;
 }
+.col2 .button{
+	margin-top: 15px;
+}
 .Intereses label {
-	font-size:15px;
+	font-size:12px;
+
 }
 .Formulario label, .Sexo{
-	margin: 10px;
+	margin-bottom: 10px;
 }
 
 .Sexo{
 	margin-top: 10px;
+	font-size: 13px;
+}
+
+.menu li:before{
+	content: '*';
+	color: #ffcb05;
+	line-height: 20px;
+
+}
+
+
+.Mass{
+	margin-left: 45px;
+	margin-bottom: 60px;
+}
+
+.titulo{
+
+	margin-bottom: 30px;
 }
