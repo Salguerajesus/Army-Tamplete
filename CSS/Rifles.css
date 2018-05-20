@@ -55,6 +55,7 @@ input:focus, textarea:focus{
 
 	background-image: url('../Imagenes/m16_22.jpg');
 	color:white;
+	background-repeat: no-repeat;
 }
 
 .titulo-a{
